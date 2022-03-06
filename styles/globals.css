@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button {
+    @apply h-8 w-8 transform cursor-pointer transition duration-100 ease-out 
+    hover:scale-125 md:h-10 md:w-10;
+  }
+  .sound-button {
+    @apply h-6 w-6 transform cursor-pointer transition duration-100 ease-out hover:scale-125;
+  }
+}
